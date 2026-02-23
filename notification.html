@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f5f5f7;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .main-noti{
+            display: flex;
+            justify-content: center;
+        }
+        .notification{
+          background-color: white;
+          width: 600px;
+          height: 700px;
+        
+          
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+        }
+        .firstp1{
+          font-size: 25px;
+          font-weight: 600;
+          margin-left: 30px;
+        }
+        .subfirstp{
+         background-color: hsl(219, 85%, 26%);
+         height: 22px;
+         width: 30px; 
+         padding-top: 3px;
+         border-radius: 7px;
+         text-align: center;
+         color: white;
+         margin-left: -30px;
+         margin-right:100px;
+         margin-top: 26px;
+        } 
+        .firstp2{
+         color: grey;
+         font-size: 16px; 
+         margin-top: 30px;
+         margin-left: 70px;
+        }
+        .first-noti{
+            background-color:  hsl(211, 68%, 94%);
+            height: 70px;
+            display: flex;
+            width: 550px;
+            margin-left: 25px;
+            border-radius: 5px;
+            margin-top: 8px;
+        }
+        .name{
+            font-size: 16px;
+            color: black;
+        }
+        .reason {
+          font-size: 16px;
+          font-weight: 600;
+          color:  rgb(77, 77, 155);
+        }  
+        b{
+         font-weight: lighter;
+         font-size: 12px;
+         color:  hsl(219, 14%, 63%);
+        }
+        .not{
+            color:  hsl(219, 12%M, 42%);
+            font-size: 12px;
+            margin-left: 20px;
+        }
+         .first-noti img{
+             margin-left: 20px;
+         }
+         .red{
+            height: 6px;
+            width: 6px;
+            border-radius: 3px;
+            background-color: hsl(1, 90%, 64%);
+            margin-top: 18px;
+            margin-left: 3px;
+         }
+            .second-noti{
+            /* background-color:  hsl(211, 68%, 94%); */
+            height: 70px;
+            display: flex;
+            width: 550px;
+            margin-left: 25px;
+            border-radius: 5px;
+            margin-top: 8px;
+         }
+         .chess{
+            margin-left: 170px;
+            height: 45px;
+         }
+         .additional{
+            color: grey;
+         }
+         .message{
+            padding: 14px 14px 14px 14px ;
+            line-height: 20px;
+            color: grey;
+            border: ridge 0.1px;
+            border-color:grey ;
+            margin-left: 110px;
+            margin-right:50px ;
+            margin-top: -15px;
+         }
+    </style>
+</head>
+<body>
+ <div class="main-noti">
+       <div class="notification">
+         <div class="first">
+           <p class="firstp1"> Notification <p class="subfirstp"> 3</p></p>
+           <p class="firstp2"> Mark all as read</p>
+         </div>
+         <div>
+            <div class="first-noti">
+                <img src="/notifications-page-main/assets/images/avatar-mark-webber.webp" alt="">
+              <p  class="not"> <strong class="name"> Mark Webber</strong> reacted to your recent post <span class="reason">my first tournament today! <br> <b class="time">1m ago</b></span> <div class="red"></div></p>
+         </div>
+         <div class="first-noti">
+                <img src="/notifications-page-main/assets/images/avatar-angela-gray.webp" alt="">
+              <p  class="not"> <strong class="name"> Angela Gray</strong> followed you  <b class="time">5m ago</b></span> <div class="red"></div></p>
+         </div>
+         </div>
+         <div class="first-noti">
+                <img src="/notifications-page-main/assets/images/avatar-jacob-thompson.webp" alt="">
+              <p  class="not"> <strong class="name"> Jacob thompson</strong> has joined your group <span class="reason">Chess Club <br> <b class="time">1 days ago</b></span> <div class="red"></div></p>
+         </div>
+          <div class="second-noti">
+          <img src="/notifications-page-main/assets/images/avatar-rizky-hasanuddin.webp" alt="">
+              <p  class="not"> <strong class="name"> Risky Hasanuddin</strong> sent you a private message<span class="reason"> <br> <b class="time">5 days ago</b></span> </p>
+        </div>
+        <div>
+          <p class=" message"> Hello, thanks for setting  up the Chess Club i've been a member for a few weeks now an am already having lot of fun and improving my game   </p>
+        </div>
+         <div class="second-noti">
+          <img src="/notifications-page-main/assets/images/avatar-kimberly-smith.webp" alt="">
+              <p  class="not"> <strong class="name"> Kimberli Smith</strong> commented on your picture <span class="reason"> <br> <b class="time">1week ago</b></span> </p>
+              <img src="/notifications-page-main/assets/images/image-chess.webp" alt="" class="chess">
+        </div>
+         <div class="second-noti">
+          <img src="/notifications-page-main/assets/images/avatar-nathan-peterson.webp" alt="">
+              <p  class="not"> <strong class="name"> Nathan Peterson</strong> reacted to your recent post<span class="reason"> <span class="additional"> 5 end-game strategies to increase your win rate </span> <br> <b class="time">2 weeks ago</b></span> </p>
+        </div>
+         <div class="second-noti">
+          <img src="/notifications-page-main/assets/images/avatar-anna-kim.webp" alt="">
+              <p  class="not"> <strong class="name"> Anna Kim</strong> left the group<span class="reason"> Chess club <br> <b class="time">2weeks ago</b></span> </p>
+        </div>
+    </div>
+        </div>
+        </div>
+ </div>
+</body>
+</html>
